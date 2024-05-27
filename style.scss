@@ -1,0 +1,14 @@
+$brandColor: royalblue;
+
+body {
+  font-family: Merriweather, serif;
+  background: linear-gradient(to bottom,
+    $brandColor,
+    darken($brandColor, 52%)
+  );
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
